@@ -9,7 +9,8 @@ from '@angular/forms';
   providedIn: 'root'
 })
 export class ClientService {
-  private baseUrl = '/api/clients';
+  //private baseUrl = '/api/clients';
+  private baseUrl = 'http://localhost:8282/api/articles';
   choixmenu : string  = 'A';
   list : Fournisseur[];
   public dataForm:  FormGroup; 
